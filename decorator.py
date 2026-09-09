@@ -180,4 +180,37 @@
 
 #*  Write a Python program to create a decorator function to measure the execution time of a function.
 
- 
+# import time 
+# def decorator(func):
+#     def counter(*args, **kwargs):
+#         print("Starting time .......")
+#         start = time.time()
+#         result = func()
+#         end = time.time()
+#         print("End time .......")
+#         return end-start 
+#     return counter 
+
+# @decorator
+# def my():
+#     t = 1 
+#     for i in range(10000):
+#         t *= i 
+#     return t
+
+# print(my())
+
+#* Write a Python program to create a decorator to convert the return value of a function to a specified data type. 
+
+# def decorator(func):
+#     def inner(*args, **kwargs):
+#         result = func(*args, **kwargs)
+#         return str(result)
+#     return inner 
+
+# @decorator
+# def my(n):
+#     return n 
+
+# n = int(input("Enter: "))
+# print(type(my(n)))
