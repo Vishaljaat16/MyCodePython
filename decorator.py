@@ -214,3 +214,40 @@
 
 # n = int(input("Enter: "))
 # print(type(my(n)))
+
+#* Decorator question given by Kapil sir 
+# def decorator(func):
+#     def checkName(*args,**kwargs):
+#         if len(args[0]) < 2:
+#             return "Name should not be less than 2 char it will contain at most two"
+#         else:
+#             return func(*args)
+#     return checkName 
+
+# def decorator(func):
+#     def checkName(*args,**kwargs):
+#         if len(kwargs['name']) < 2:
+#             return "Name should not be less than 2 char it will contain at most two"
+#         elif kwargs['age'] < 18:
+#             return "Your age is not eligible"
+#         else:
+#             return func(**kwargs)
+
+#     return checkName
+
+# @decorator
+# def print_name(**kwargs):
+#     return kwargs['name']
+
+# print(print_name(name = "Vishal", age=16))
+# print(print_name('vjj'))
+
+
+#* Checkin function return type  
+# def myfunc():
+#     return "hello"
+
+# def h():
+#     return myfunc
+
+# print(h())

@@ -145,16 +145,29 @@
 
 # print(result)
 
-students = ["Ajay", "Ravi", "Neha"]
-scores = [85, 90, 88]
+# students = ["Ajay", "Ravi", "Neha"]
+# scores = [85, 90, 88]
 
 # student_record = {"school": "DPS Indore"}
-records = []
+# records = []
 
-for i in range(len(students)):
-    student_record = {"school": "DPS Indore"}
-    student_record["name"] = students[i]
-    student_record["score"] = scores[i]
-    records.append(student_record)
+# for i in range(len(students)):
+#     student_record = {"school": "DPS Indore"}
+#     student_record["name"] = students[i]
+#     student_record["score"] = scores[i]
+#     records.append(student_record)
 
-print(records)
+# print(records)
+
+#* Count zero from list without using any builtin methods 
+# l = [0,1,0,1,0,1,0,-10,0,2,2,2,0,-1,]
+# count = 0
+
+# for i in l:
+#     while i:   
+#         break
+#     else:
+#         count += 1
+# print(count)
+
+
