@@ -170,4 +170,6 @@
 #         count += 1
 # print(count)
 
+#* checking hashing of the values in set and list: 
 
+ 

@@ -47,37 +47,38 @@
 
 # print(l)
 
-s = ".b.bb..b.b.b.b.bbbb...bb..."
-sl = list(s)
-print(s)
-dot = s.count('.')
-char = len(s)-dot 
+# s = ".b.bb..b.b.b.b.bbbb...bb..."
+# sl = list(s)
+# print(s)
+# dot = s.count('.')
+# char = len(s)-dot 
 
-if dot < (char-1):
-    print(-1)
+# if dot < (char-1):
+#     print(-1)
 
-swap_count = 0
+# swap_count = 0
 
-i = 0
-j = len(s)-1
-while i < j:
-    if sl[i] != "." and sl[i+1] != ".":
-        if sl[j] == "." and sl[j-1] == ".":
-            sl[i+1], sl[j] = sl[j], sl[i+1]
-            swap_count += 1 
-            j -= 1
-    i += 1
+# i = 0
+# j = len(s)-1
+# while i < j:
+#     if sl[i] != "." and sl[i+1] != ".":
+#         if sl[j] == "." and sl[j-1] == ".":
+#             sl[i+1], sl[j] = sl[j], sl[i+1]
+#             swap_count += 1 
+#             j -= 1
+#     i += 1
 
-# sl.reverse()
-start = 1 
-end = len(sl)-1 
-while start < end:
-    if sl[start-1] == "." and sl[start] == "." and sl[start+1]:
-        if sl[end] != ".":
-            sl[start], sl[end] = sl[end], sl[start]
-            swap_count += 1
-            end -= 1
-    start += 1
+# # sl.reverse()
+# start = 1 
+# end = len(sl)-1 
+# while start < end:
+#     if sl[start-1] == "." and sl[start] == "." and sl[start+1]:
+#         if sl[end] != ".":
+#             sl[start], sl[end] = sl[end], sl[start]
+#             swap_count += 1
+#             end -= 1
+#     start += 1
 
-print(''.join(sl))
-print(swap_count)
+# print(''.join(sl))
+# print(swap_count)
+
