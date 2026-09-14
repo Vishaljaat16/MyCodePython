@@ -172,4 +172,46 @@
 
 #* checking hashing of the values in set and list: 
 
- 
+# l = [1,2,3,4,5,6]
+# l1 = ['1','2','3','4','5','6']
+# l2 = ['a','b','c','d','e','f']
+
+# for i in range(len(l)):
+    # if l[i] > l1[i]:
+    #     print("\n",l[i], end=" ")
+    # else:
+    #     print("\n",l1[i], end=" ")
+    # if l1[i] > l2[i]:
+    #     print(l1[i], end=" ")
+    # else:
+    #     print(l2[i], end=" ")
+
+
+#* use divmod()  python function 
+
+# n = int(input("Enter number of days : "))
+
+# years, rem = divmod(n, 365)
+
+# leap, rem = divmod(years, 4) 
+# years_of_days = (years - leap) * 365 + (leap * 366)
+# no_of_days_left = n - years_of_days
+
+# print(f"Years = {years-leap}")
+# print(f"Leap Years = {leap}")
+
+# if no_of_days_left > 330:
+#     new_num = no_of_days_left - 330
+#     month, remain = divmod(330,30)
+#     remain += new_num
+# else:
+#     month, remain = divmod(no_of_days_left, 30)
+# print(f'{month = }')
+
+# week, remain = divmod(remain, 7)
+# print(f'{week = }')
+
+# print(f'Days = {remain}')
+
+
+
