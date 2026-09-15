@@ -193,3 +193,35 @@ name = "Pythonista"
 # print(A.__dict__.keys())
 # print(A.attr)
 
+
+#* ========== Namespace =========
+
+class Mobile:
+        fb = 'Yes'
+
+        @classmethod
+        def is_fb(cls):
+                print("finger Print : ", cls.fb)
+
+realme = Mobile()
+oppo = Mobile()
+redmi = Mobile()
+
+print(f"Class fb: {Mobile.fb}")
+print(f"realme fb: {realme.fb}")
+print(f"oppo fb: {oppo.fb}")
+print(f"redmi fb: {redmi.fb}")
+
+print()
+Mobile.fb = "No"
+print(f"Class fb: {Mobile.fb}")
+print(f"realme fb: {realme.fb}")
+print(f"oppo fb: {oppo.fb}")
+print(f"redmi fb: {redmi.fb}")
+
+print()
+realme.fb = "WoW"
+print(f"Class fb: {Mobile.fb}")
+print(f"realme fb: {realme.fb}")
+print(f"oppo fb: {oppo.fb}")
+print(f"redmi fb: {redmi.fb}")
