@@ -1,0 +1,98 @@
+{
+  "animals": [
+    "elephant",
+    "tiger",
+    "lion",
+    "giraffe",
+    "zebra",
+    "kangaroo",
+    "penguin",
+    "dolphin",
+    "crocodile",
+    "cheetah"
+  ],
+  "fruits": [
+    "apple",
+    "banana",
+    "mango",
+    "pineapple",
+    "watermelon",
+    "strawberry",
+    "papaya",
+    "grapes",
+    "orange",
+    "pomegranate"
+  ],
+  "countries": [
+    "india",
+    "canada",
+    "brazil",
+    "germany",
+    "france",
+    "japan",
+    "australia",
+    "italy",
+    "mexico",
+    "singapore"
+  ],
+  "programming": [
+    "python",
+    "javascript",
+    "django",
+    "fastapi",
+    "database",
+    "function",
+    "variable",
+    "inheritance",
+    "encapsulation",
+    "algorithm"
+  ],
+  "technology": [
+    "computer",
+    "keyboard",
+    "internet",
+    "software",
+    "hardware",
+    "processor",
+    "browser",
+    "server",
+    "network",
+    "database"
+  ],
+  "food": [
+    "pizza",
+    "burger",
+    "sandwich",
+    "noodles",
+    "biryani",
+    "pancake",
+    "chocolate",
+    "popcorn",
+    "lasagna",
+    "omelette"
+  ],
+  "sports": [
+    "cricket",
+    "football",
+    "basketball",
+    "tennis",
+    "hockey",
+    "baseball",
+    "badminton",
+    "volleyball",
+    "swimming",
+    "boxing"
+  ],
+  "vehicles": [
+    "car",
+    "motorcycle",
+    "bicycle",
+    "airplane",
+    "helicopter",
+    "submarine",
+    "train",
+    "bus",
+    "tractor",
+    "scooter"
+  ]
+}

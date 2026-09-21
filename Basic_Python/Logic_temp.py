@@ -215,3 +215,7 @@
 
 
 
+# l = [1,2,3,4,5,6,7,8]
+# print([[i, i+len(l)//2] for i in range(1,len(l)//2 + 1) ])
+# l[1::2], l[2::2] = l[len(l)//2:], l[1:len(l)//2]
+# print(l)
