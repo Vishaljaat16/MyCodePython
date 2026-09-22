@@ -194,6 +194,16 @@
 #     def m3():
 #         print('Parent static method') 
 
+# p = P()
+# p.m1()
+# p.m2()
+# p.m3()
+
+# P.m1()   #* we can't call instance method using class name
+
+# P.m2()
+# P.m3()
+
 # class C(P):
 #     @classmethod
 #     def m1(cls):
