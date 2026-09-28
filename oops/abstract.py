@@ -8,10 +8,15 @@ from abc import *
     
 #     def m2(self):
 #         print("I am M2 Method")
+    
+#     @staticmethod
+#     def m3():
+#         print("static class")
 
 # t = Test()
-# t.m2()
+# t.m3()
 # Test.m2('hello')
+# Test.m1(1)
 
 # class Test:
 

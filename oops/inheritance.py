@@ -163,15 +163,16 @@
 
 
 # class C(P):
-#     a = 888 
+#     # a = 888 
 
 #     def __init__(self):
-#         self.b = 999 
+#         # self.b = 999 
 #         super().__init__()
 #         print(super().a)
 #         super().m1()
 #         super().m2()
 #         super().m3()
+#         super().b
 
 # c = C()
 # print(c.a)

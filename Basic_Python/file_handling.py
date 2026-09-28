@@ -82,24 +82,33 @@
 
 #* Program to print the Number of Lines, Words and Characters present in the given File? 
 
-import os, sys 
-filename = input("Enter file name :- ")
+# import os, sys 
+# filename = input("Enter file name :- ")
 
-if os.path.isfile(filename):
-    print("file exist: ", filename)
-    f = open(filename, 'r')
-else:
-    print("file doesn't : ", filename)
-    sys.exit(0)
+# if os.path.isfile(filename):
+#     print("file exist: ", filename)
+#     f = open(filename, 'r')
+# else:
+#     print("file doesn't : ", filename)
+#     sys.exit(0)
 
-lcount = wcount = ccount = 0 
+# lcount = wcount = ccount = 0 
 
-for line in f:
-    lcount += 1
-    ccount += len(line)
-    wcount += len(line.split(" "))
+# for line in f:
+#     lcount += 1
+#     ccount += len(line)
+#     wcount += len(line.split(" "))
 
-print(f"lcount = {lcount}")
-print(f"ccount = {ccount}") 
-print(f"wcount = {wcount}") 
+# print(f"lcount = {lcount}")
+# print(f"ccount = {ccount}") 
+# print(f"wcount = {wcount}") 
+
+# with open("new.txt","w+") as file:
+    # file.write("hey bro")
+#     print(file.seek(0))
+#     f = file.read()
+#     print(file.tell())
+
+
+# print(f)
 
