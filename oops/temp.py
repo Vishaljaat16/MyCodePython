@@ -34,3 +34,22 @@
 # l = [0,0,0,0,0,0,1,0,]
 # print(any(l))
 # print(all(l))
+
+
+# from encapsulation import Student
+
+# s = Student("Vishal",111, 99, 22000)
+# s.display()
+# print()
+# s._marks = 77
+# s._Student__amount = 33000
+# s.display()
+
+
+# def my():
+#     try:
+#         return "HELLO"
+#     finally:
+#         print("HII")
+
+# print(my())

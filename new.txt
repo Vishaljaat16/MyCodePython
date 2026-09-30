@@ -1,0 +1,25 @@
+Hello 
+
+Today’s Updates – 29/09/2026
+
+1. Metaclasses
+    Learned the concept and purpose of metaclasses in Python and how they control the creation and behavior of classes.
+    Explored the basic working of type and metaclass concepts with practical examples.
+
+Task Completed: Practiced basic metaclass examples and understood their working flow.
+Status: Completed
+
+2. Multithreading
+    Started exploring multithreading in Python and understood the basic concept of threads.
+    Learned how to create threads and execute functions concurrently using Python's threading module.
+    Practiced basic thread creation and execution with examples.
+
+Task Completed: Implemented basic multithreading programs and practiced creating and executing threads.
+Status: In Progress
+
+Pending Tasks
+Topic: Multithreading
+
+Pending Work: Continue exploring thread lifecycle, thread synchronization, and other multithreading concepts.
+
+Status: continued on the next working day.

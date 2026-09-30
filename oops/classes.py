@@ -284,23 +284,23 @@
 #* ============================================================= 
 #& --------------- @property ----------------- 
 
-class Student:
+# class Student:
 
-    def __init__(self, marks):
-        self._marks = marks 
+#     def __init__(self, marks):
+#         self._marks = marks 
 
-    @property
-    def marks(self):
-        return self._marks 
+#     @property
+#     def marks(self):
+#         return self._marks 
     
-    @marks.setter
-    def marks(self, value):
-        if value >= 0:
-            self._marks = value 
-        else:
-            print("Marks cann't be negative") 
+#     @marks.setter
+#     def marks(self, value):
+#         if value >= 0:
+#             self._marks = value 
+#         else:
+#             print("Marks cann't be negative") 
 
-s = Student(88)
-print(s.marks)
-s.marks = 100 
-print(s.marks)
+# s = Student(88)
+# print(s.marks)
+# s.marks = 100 
+# print(s.marks)
