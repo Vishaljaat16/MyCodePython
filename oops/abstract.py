@@ -18,11 +18,11 @@ from abc import *
 # Test.m2('hello')
 # Test.m1(1)
 
-# class Test:
+# class Test(ABC):
 
-#     @abstractmethod
 #     def m1(self):
 #         print("hello")
+    
 
 # t = Test()
 # t.m1()
@@ -130,5 +130,6 @@ from abc import *
 # x = classname() 
 # x.printit("This data has to print")
 # x.disconnect
+
 
 

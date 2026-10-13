@@ -128,27 +128,29 @@ import time
 
 # *======================================================
 # ^ ----- enumerate() -------
+#todo:-> It returns a list of all currently active Thread objects. 
 
-import time
-def display():
-    print(threading.current_thread().getName(),"...started")
-    time.sleep(3)
-    print(threading.current_thread().getName(),"...ended")
+# import time
+# def display():
+#     print(threading.current_thread().getName(),"...started")
+#     time.sleep(3)
+#     print(threading.current_thread().getName(),"...ended")
 
-t1 = threading.Thread(target=display, name="ChildThread11")
-t2 = threading.Thread(target=display, name="ChildThread22")
-t3 = threading.Thread(target=display, name="ChildThread33")
+# t1 = threading.Thread(target=display, name="ChildThread11")
+# t2 = threading.Thread(target=display, name="ChildThread22")
+# t3 = threading.Thread(target=display, name="ChildThread33")
 
-t1.start()
-t2.start()
-t3.start()
-l = threading.enumerate()
-for t in l:
-    print("Thread Name:",t.name)
-time.sleep(5)
-l = threading.enumerate()
-for t in l:
-    print("Thread Name:",t.name)
+# t1.start()
+# t2.start()
+# t3.start()
+# l = threading.enumerate()
+# print(l)
+# for t in l:
+#     print("Thread Name:",t.name)
+# time.sleep(5)
+# l = threading.enumerate()
+# for t in l:
+#     print("Thread Name:",t.name)
 
 
 # *===========================================================
@@ -177,6 +179,8 @@ for t in l:
 #todo:-> A and B "If A is falsy, give me A. Otherwise, give me B."
 #*======================================================
 #^ -------- join() ------  
+#todo:-> It pause the existing Thread or main program to wait until the target thread finishes executing.
+
 
 # import time
 # def display():
@@ -192,4 +196,74 @@ for t in l:
 #     print("Rama Thread")
 
 #* ========================================================
-#^ -------- 
+#^ ---------- Daemon Threads ----------------
+#todo:->  The Daemon threads ends when program execution complete where ever the Daemon threads complete its execution or not       Once a Main thread or program execution completes it will stop.
+
+# threading.current_thread().setDaemon(True)
+# print(threading.current_thread().isDaemon())
+
+# def job():
+#     print("Child Thread")
+
+# t = threading.Thread(target=job)
+# print(t.isDaemon())
+# t.setDaemon(True)
+# print(t.isDaemon())
+
+# import time
+# def job():
+#     for i in range(10):
+#         print("Lazy Thread")
+#         time.sleep(2)
+
+# t = threading.Thread(target=job)
+# # t.setDaemon(True)
+# t.start()
+# time.sleep(5)
+# print("End of Main Thread")
+
+
+#*============================================================
+#^ ------------------ Synchronization ------------------
+#todo:-> If multiple threads are executing simultaneously then there may be a chance of data inconsistency problems.
+#? --- Synchronization means at a time only one Thread 
+
+# import time 
+# def wish(name):
+#     for i in range(10):
+#         print("Good Evening:", end="")
+#         time.sleep(2)
+#         print(name)
+
+# t1 = threading.Thread(target=wish, args=('Dhoni',))
+# t2 = threading.Thread(target=wish, args=('Yuvraj',))
+# t1.start()
+# t2.start()
+
+
+#^ -------------------- Lock() ---------------------- 
+# import time
+# l = threading.Lock()
+
+# def wish(name):
+#     l.acquire()
+#     for i in range(10):
+#         print("Good Evening:",end="")
+#         time.sleep(2)
+#         print(name)
+#     l.release()
+
+# def do():
+#     for i in range(10):
+#         time.sleep(1)
+#         print("Vishal")
+
+# t1 = threading.Thread(target=wish, args=("Dhoni",))
+# t2 = threading.Thread(target=wish, args=("Yuvraj",))
+# t3 = threading.Thread(target=wish, args=("Kohli",))
+# t4 = threading.Thread(target=do)
+# t1.start()
+# t2.start()
+# t3.start()
+# t4.start()
+

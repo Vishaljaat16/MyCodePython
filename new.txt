@@ -1,25 +1,30 @@
-Hello 
+Hello @ @ @ @
+Today’s Updates – 12/10/2026
 
-Today’s Updates – 29/09/2026
+1. SQL JOINs and Relationships
+Specific Concepts: Learned JOINs and their types, along with one-to-one, one-to-many, and many-to-many relationships.
 
-1. Metaclasses
-    Learned the concept and purpose of metaclasses in Python and how they control the creation and behavior of classes.
-    Explored the basic working of type and metaclass concepts with practical examples.
+Task Completed: Explored how to combine tables and establish relationships between them.
 
-Task Completed: Practiced basic metaclass examples and understood their working flow.
 Status: Completed
 
-2. Multithreading
-    Started exploring multithreading in Python and understood the basic concept of threads.
-    Learned how to create threads and execute functions concurrently using Python's threading module.
-    Practiced basic thread creation and execution with examples.
+2. SQL Query Practice
+Specific Concepts: Practiced SQL queries to improve logical thinking and problem-solving skills.
 
-Task Completed: Implemented basic multithreading programs and practiced creating and executing threads.
+Task Completed: Solved practice-based SQL queries.
+
+Status: In Progress
+
+3. SQL Functions
+Specific Concepts: Explored numeric functions and string functions and their usage in SQL queries.
+
+Task Completed: Studied commonly used functions and practiced their application.
+
 Status: In Progress
 
 Pending Tasks
-Topic: Multithreading
+Task: SQL Functions and Query Practice
 
-Pending Work: Continue exploring thread lifecycle, thread synchronization, and other multithreading concepts.
+Pending Work: Continue practicing JOINs, relationships, and SQL functions through more complex queries.
 
 Status: continued on the next working day.

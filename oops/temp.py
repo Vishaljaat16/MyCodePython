@@ -53,3 +53,69 @@
 #         print("HII")
 
 # print(my())
+
+
+
+
+
+
+
+
+
+#*===================================================
+# 
+# from math import pi
+
+# class Shape:
+#     def __init__(self, shape_type, **kwargs):
+#         self.shape_type = shape_type
+#         if self.shape_type == "rectangle":
+#             self.width = kwargs["width"]
+#             self.height = kwargs["height"]
+#         elif self.shape_type == "circle":
+#             self.radius = kwargs['radius']
+#         else:
+#             raise TypeError("Unsupported shape type")
+
+#     def calculate_area(self):
+#         if self.shape_type == "rectangle":
+#             return self.width * self.height
+#         elif self.shape_type == "circle":
+#             return pi * self.radius**2
+#         else:
+#             raise TypeError("Unsupported shape type")
+
+# s = Shape("rectangle", height=10, width = 20)
+# print(s.calculate_area())
+
+
+#* ======================================================
+
+from collections import defaultdict
+
+# letter_counts = defaultdict(int)
+
+# text = "apple"
+
+# for letter in text:
+#     letter_counts[letter] += 1
+
+# print(letter_counts)
+
+# grouped_words = defaultdict(list)
+
+# words = ['apple','banana','apricot','blueberry']
+
+# for word in words:
+#     first_letter = word[0]
+#     grouped_words[first_letter].append(word)
+
+# print(grouped_words)
+
+a = 1
+b = 1
+# print(((a and b) or (a==b==None)))
+if (a and b) or (a==b==None):
+    print("True")
+else:
+    print("False")
