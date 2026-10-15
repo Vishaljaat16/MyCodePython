@@ -134,6 +134,7 @@ SELECT first_name, department_id, salary,
        END AS "REVISED SALARY"
 FROM Employee;
 
+
 select coalesce(last_name, '-NA-') from employee;
 select greatest( 10000, 25000, 16000) as High_salary;
 SELECT IFNULL(1, 0) FROM dual;
@@ -177,3 +178,14 @@ END //
 DELIMITER ;
 
 call geekdemo(59999);
+
+
+
+-- EXCEPT(MINUS) / INTERSECT -- 
+select * from table11
+intersect
+select * from table22;
+
+select * from table11
+except
+select * from table22;

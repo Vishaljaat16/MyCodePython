@@ -1,30 +1,23 @@
 Hello @ @ @ @
-Today’s Updates – 12/10/2026
+Today’s Updates – 14/10/2026
 
-1. SQL JOINs and Relationships
-Specific Concepts: Learned JOINs and their types, along with one-to-one, one-to-many, and many-to-many relationships.
+1. SQL Window Functions
+    Explored window functions and their types, including aggregate, ranking, and value functions.
 
-Task Completed: Explored how to combine tables and establish relationships between them.
-
-Status: Completed
-
-2. SQL Query Practice
-Specific Concepts: Practiced SQL queries to improve logical thinking and problem-solving skills.
-
-Task Completed: Solved practice-based SQL queries.
+Task Completed: Studied the usage of window functions for data analysis and ranking.
 
 Status: In Progress
 
-3. SQL Functions
-Specific Concepts: Explored numeric functions and string functions and their usage in SQL queries.
+2. SQL WITH and EXISTS Clauses
+    Learned the WITH clause (CTE) and EXISTS clause for organizing queries and checking records.
 
-Task Completed: Studied commonly used functions and practiced their application.
+Task Completed: Explored their syntax and usage through examples.
 
 Status: In Progress
 
 Pending Tasks
-Task: SQL Functions and Query Practice
+Task: SQL Window Functions and Clauses
 
-Pending Work: Continue practicing JOINs, relationships, and SQL functions through more complex queries.
+Pending Work: Practice queries using window functions, CTEs, and EXISTS to strengthen logical problem-solving skills.
 
 Status: continued on the next working day.
